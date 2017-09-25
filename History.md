@@ -11,7 +11,8 @@ unreleased
   * deps: debug@2.6.9
   * deps: etag@~1.8.1
     - perf: replace regular expression with substring
-  * deps: finalhandler@~1.0.6
+  * deps: finalhandler@1.1.0
+    - Use `res.headersSent` when available
     - deps: debug@2.6.9
     - deps: parseurl@~1.3.2
   * deps: fresh@0.5.2
