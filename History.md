@@ -2,6 +2,7 @@ unreleased
 ==========
 
   * Improve error message when autoloading invalid view engine
+  * Skip `Buffer` encoding when not generating ETag for small response
   * deps: accepts@~1.3.4
     - deps: mime-types@~2.1.16
   * deps: content-type@~1.0.4
